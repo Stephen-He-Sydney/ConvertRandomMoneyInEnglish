@@ -1,0 +1,28 @@
+﻿{
+  "ChequeModel":[
+    {
+      "Id": 1,
+      "Name": "John Smith",
+      "Date": "12/06/2017",
+      "Amount": 136.00
+    },
+    {
+      "Id": 2,
+      "Name": "David Green",
+      "Date": "01/04/2017",
+      "Amount": 122.05
+    },
+    {
+      "Id": 3,
+      "Name": "Jane Wang",
+      "Date": "19/03/2017",
+      "Amount": 187
+    },
+    {
+      "Id": 4,
+      "Name": "Kate Cliton",
+      "Date": "17/03/2017",
+      "Amount": 187.45
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div ng-controller="chequeListController as vm" ng-init="vm.init()" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <ul class="list-group" ng-repeat="aCheque in vm.chequeList">
+      <li class="list-group-item">
+       <span>Name:</span> <a ng-href="ChequeDetail/Index?chequeId={{aCheque.Id}}" ng-bind="aCheque.Name"></a>
+      </li>
+  </ul>
+</div>
+

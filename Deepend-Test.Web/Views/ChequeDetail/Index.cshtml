@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div ng-controller="chequeDetailController as vm" ng-init="vm.init('@ViewBag.chequeId')" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <ul class="list-group">
+        <li class="list-group-item" >   
+            <span>Name:</span><span ng-bind="vm.chequeDetail.Name"></span>         
+        </li>
+        <li class="list-group-item" >
+            <span>Date:</span><span ng-bind="vm.chequeDetail.Date"></span>
+        </li>
+        <li class="list-group-item">
+            <span>Amount:</span><span ng-bind="vm.chequeDetail.Amount"></span>
+        </li>
+        <li class="list-group-item">
+            <span>Pay:</span><span ng-bind="vm.chequeDetail.Pay"></span>
+        </li>
+    </ul>
+</div>
